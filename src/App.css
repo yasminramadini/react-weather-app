@@ -1,0 +1,125 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: #243657;
+  color: #fff;
+  padding: 20px;
+}
+
+#start {
+  background: #33415E;
+  border-radius: 7px;
+  padding: 20px;
+  text-align: center;
+  max-width: 500px;
+}
+
+.instruction {
+  margin-bottom: 20px;
+}
+
+#start input {
+  display: block;
+  padding: 10px;
+  border-radius: 4px;
+  border: none;
+  outline: none;
+  width: 100%;
+  text-align: center;
+}
+
+.separator {
+  background: #fff;
+  height: 2px;
+  margin: 30px 0;
+  position: relative;
+}
+
+.separator p {
+  background: #33415E;
+  padding: 0 7px;
+  position: absolute;
+  top: -8px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+#start {
+  margin: 0 auto;
+}
+
+#start button {
+  background: #00C8EF;
+  padding: 10px 13px;
+  border-radius: 4px;
+  border: none;
+  display: block;
+  width: 100%;
+  transition: all 0.2s;
+}
+
+#start button:hover {
+  background: #008CC3;
+}
+
+#start .error {
+  color: #FF3500;
+  margin: 10px 0;
+}
+
+#detail {
+  max-width: 500px;
+  margin: 0 auto;
+  margin-top: 20px;
+}
+
+#detail nav {
+  margin-bottom: 20px;
+  font-size: 30px;
+  border-bottom: 1px solid #ddd;
+}
+
+#detail header {
+  text-align: center;
+  font-size: 20px;
+}
+
+#detail header img {
+  display: block;
+  margin: 10px auto;
+}
+
+#detail .row {
+  background: #33415E;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px;
+  border-radius: 5px;
+}
+
+#detail main {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(50px, 200px));
+  grid-gap: 15px;
+  justify-content: center;
+  margin-top: 40px;
+}
+
+#detail .row svg {
+  font-size: 40px;
+}
+
+.row .row-title {
+  opacity: 0.7;
+  margin-bottom: 10px;
+  font-size: 15px;
+}
+
+.row h3 {
+  font-size: 25px;
+}
